@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Parisienne&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', cursive;
+}
+.container{
+    display: grid;
+    grid-template-rows: 25vh 50vh 10vh;
+    width:28rem;
+    max-width: 30rem;
+    margin: 1rem 0.5rem;
+    background-image: url(./images/backgroundImage.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 1rem 0.5rem;
+    height: 90vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.first{
+    text-align: center;
+}
+#text{
+    width: 70%;
+    max-width: 25rem;
+    height: 2rem;
+    margin: 0rem 0rem 0.5rem;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+}
+.header{
+    text-align:center;
+}
+.header img{
+    width: 80%;
+    max-width: 17.5rem;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem coral);
+}
+.add{
+    width:5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 0.5rem;
+}
+.removeBtn{
+    display: flex;
+    align-items: center;
+    background-color:transparent;
+    border:none;
+    padding: 0.3rem 0.5rem;
+
+}
+.remove{
+    font-size: 1.2rem;
+    color:orangered;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 0.5rem;
+    border: none;
+}
+.checkbox{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: inline-block;
+    cursor: pointer;
+    accent-color: orangered;
+}
+.subline{
+    display: flex;
+    align-items: center; 
+    max-width: calc(100%-8rem)
+}
+
+.list{
+    padding-top:1.2rem;
+    overflow: auto;
+    
+}
+span{
+    text-align: justify;
+    display: inline-block;
+    word-break: break-all;
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.clear{
+    text-align: center;
+    margin:auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    width:80%;
+    max-width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:1rem;
+    
+}
+#clearBtn{
+    width: 5rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(238, 213, 204);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
